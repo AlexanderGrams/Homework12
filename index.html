@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homework</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<header class="header-wrap">
+		<div class="header">
+			<form class="header__form form-add">
+				<div class="header__form-inner">
+					<input name="word" placeholder="слово" list="words_list">
+						<datalist id="words_list">
+							<option>мир</option>
+							<option>привет</option>
+							<option>велосипед</option>
+						</datalist>
+					<input name="translation" placeholder="перевод" list="translations_list">
+						<datalist id="translations_list">
+								<option>world</option>
+								<option>hello</option>
+								<option>bicycle</option>
+						</datalist>
+					<input name="color" placeholder="цвет" list="colors_list">
+						<datalist id="colors_list">
+							<option>#C2185B</option>
+							<option>#757575</option>
+							<option>#2196F3</option>
+						</datalist>
+				</div>
+				<button class="header__form-button">Добавить</button>
+			</form>
+			<form class="header__form form-search">
+				<div>
+					<input name="search" placeholder="🔎 найти">
+				</div>
+			</form>
+		</div>
+	</header>
+	<section id="content">
+	</section>
+	<script src="scripts/script.js"></script>
+</body>
+</html>

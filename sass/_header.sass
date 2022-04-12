@@ -1,0 +1,66 @@
+.header-wrap
+	display: flex
+	justify-content: center
+	align-items: center
+	padding: 20px
+	z-index: 100
+	background-color: $menu-color
+	position: sticky
+	top: 0
+	right: 0
+	left: 0
+
+.header
+	width: 100%
+	display: flex
+	justify-content: space-between
+
+.header__form
+	padding: 25px
+	border-radius: 20px
+	background-color: $form-color
+	box-shadow: #5c5c5c 0 1px 10px
+
+.form-add
+	width: 800px
+	display: flex
+	justify-content: space-between
+
+.header__form-inner
+	width: 70%
+	display: flex
+	justify-content: space-between
+	
+.form-search
+
+	input
+		width: 400px
+
+input
+	padding-left: 15px
+	padding-right: 5px
+	height: 50px
+	width: 150px
+	border: none
+	border-radius: 10px
+	background-color: #FFF
+	color: $fotm-text-color
+	font-size: 20px
+
+	&:focus
+		outline: #0a81f8 2px solid
+		font-size: 17px
+
+button
+	height: 50px
+	width: 200px
+	border: none
+	border-radius: 10px
+	background: $button-color
+	color: white
+	font-size: 15px
+	font-weight: 600
+	transition: background 0.5s ease
+
+	&:hover
+		background: $button-color-hover
